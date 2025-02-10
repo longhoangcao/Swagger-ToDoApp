@@ -14,7 +14,8 @@
 
 API Endpoints
 Method Endpoint Description
-GET /api/todos Lấy danh sách tất cả todos
-POST /api/todos Thêm một todo mới
-PUT /api/todos/:id Cập nhật trạng thái todo
-DELETE /api/todos/:id Xóa một todo
+
+- GET /api/todos Lấy danh sách tất cả todos
+- POST /api/todos Thêm một todo mới
+- PUT /api/todos/:id Cập nhật trạng thái todo
+- DELETE /api/todos/:id Xóa một todo
