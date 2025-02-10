@@ -1,0 +1,35 @@
+# 🛑 Bỏ qua các thư mục cài đặt và build
+node_modules/
+.env
+package-lock.json
+
+# 🛑 Bỏ qua logs và debug files
+logs/
+*.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+debug.log
+
+# 🛑 Bỏ qua thư mục cache
+.cache/
+dist/
+build/
+.tmp/
+
+# 🛑 Bỏ qua thư mục của Sequelize CLI
+migrations/
+seeders/
+
+# 🛑 Bỏ qua VS Code settings (nếu dùng)
+.vscode/
+
+# 🛑 Bỏ qua PM2 logs (nếu chạy bằng PM2)
+pm2.log
+pm2.pid
+
+# 🛑 Bỏ qua Docker files (nếu có)
+docker-compose.override.yml
+
+# 🛑 Bỏ qua thư mục Swagger auto-generated (nếu có)
+swagger-output.json
